@@ -9,14 +9,23 @@ body {
   overflow: hidden;
 }
 
-#angel {
-  margin-left: 200px;
+.angel {
+  width: 350px;
+  height: 350px;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 
-button#lamp {
+.message {
+  color: #333333;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+button.lamp {
   font-size: 7px;
   padding: 25px 7px;
-  margin-left: 200px;
+  margin-left: 350px;
   opacity: 0;
 }
 
@@ -54,6 +63,6 @@ body div {
   }
 
   button#decision {
-    margin-left: 525px;
+    margin-left: 735px;
   }
 }
